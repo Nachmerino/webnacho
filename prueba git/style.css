@@ -1,0 +1,21 @@
+.grid{ display: grid;
+    grid-template-columns: 300px 100px 50px;
+    grid grid-template-rows: 40px 100px;
+    border: solid 1px 
+  }
+  .grid2{display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1fr 2fr 5fr ;
+}
+.grid3{display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+.grid4{display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+}
+.grid5{display: grid;
+    grid-template-columns: 100px 1fr 2fr 100px;
+    grid-template-rows: repeat(12,1fr);
+}
